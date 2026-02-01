@@ -1,0 +1,61 @@
+Goal: Plan the full “Agent-Based Web Scraping System” project for the Odibets site.
+
+You should generate an Implementation Plan Artifact that includes:
+
+Overview Diagram of architecture
+
+Module List
+
+PopupAgent
+
+LeagueSupervisor
+
+Per-league agent stacks
+
+TimerAgent
+
+MatchdayAgent
+
+MarketAgents
+
+LiveMatchdayAgent
+
+ResultsAgent
+
+StandingsAgent
+
+State Machines
+
+PRE → LOCKED → LIVE → RESULT
+
+League lifecycle
+
+Event Bus Contracts
+
+Events
+
+Payload schema
+
+Priority/ordering
+
+Persistence Model
+
+What must be persisted
+
+Where (file, DB, Redis)
+
+Retry & Abort Logic
+
+Per agent
+
+Boundaries
+
+Testing Strategy
+
+Unit tests
+
+Integration tests
+
+Simulating timer transitions
+
+Return this as an artifact plan (use Antigravity’s artifact output format) and do not start writing code yet.

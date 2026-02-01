@@ -1,0 +1,49 @@
+Use the previously accepted artifact plan to generate code for the complete agent-based scraper system.
+
+Please adhere to the following:
+
+Follow the plan file exactly.
+
+Generate:
+
+Directory structure
+
+Python async code modules
+
+Playwright setup and helpers
+
+Event bus implementation
+
+Agent classes (Popup, Timer, Matchday, MarketAgents, Live, Results, Standings)
+
+Tests (PyTest)
+
+Documentation
+
+Docstrings
+
+README with:
+
+Setup steps
+
+Testing instructions
+
+Run instructions
+
+Use proper package/module naming and import conventions.
+
+Provide structured code artifacts and test artifacts separately.
+
+After code generation, run examples showing:
+
+DOM detection
+
+Timer transition from PRE to LOCKED
+
+Market abortion at T-10
+
+Live event collection
+
+Results verification
+
+Standings refresh after 5 games
